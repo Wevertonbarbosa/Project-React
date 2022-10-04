@@ -14,8 +14,9 @@ const DivTask = styled.div`
     font-weight: bolder;
     @media (max-width: 425px) {
         height: 6%;
-        padding: 0 0.2em;
+        padding: .5em 0.5em;
         font-size: small;
+        border-radius: 10px;
     }
     @media (max-width: 320px) {
         font-size: x-small;

@@ -34,6 +34,14 @@ const SubContainer = styled.div`
         #000000 100%
     );
     box-shadow: -8px 8px 8px black;
+
+    @media (max-width: 768px) {
+        width: 70vw;
+    }
+
+    @media (max-width: 425px) {
+        width: 90vw;
+    }
 `;
 
 const Title = styled.h1`

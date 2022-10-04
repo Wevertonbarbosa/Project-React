@@ -88,13 +88,13 @@ h2 {
   .btnAnimado {
       width: 25%;
       height: 100%;
-      font-size: 9pt;
+      font-size: medium;
   }
 
   .btnAnimado:hover {
       width: 22%;
       height: 100%;
-      font-size: 8pt;
+      font-size: medium;
   }
 
   .dZDgrT {
@@ -106,13 +106,13 @@ h2 {
 @media (max-width: 425px) {
 
   h1 {
-      font-size: medium;
+      font-size: larger;
       margin-bottom: 2em;
   }
 
   h2 {
 
-    font-size: medium;
+    font-size: larger;
   }
 
   #inputTask {
@@ -122,7 +122,8 @@ h2 {
   }
 
   #labelTask {
-      font-size: smaller;
+    font-size: smaller;
+    left: 2.1em;
   }
 
   #inputTask:focus ~ label {
@@ -133,13 +134,13 @@ h2 {
   
   .btnAnimado {
       padding: 0;
-      font-size: 6pt;
+      font-size: medium;
       width: 28%;
       height: 90%;
   }
   .btnAnimado:hover {
       padding: 0;
-      font-size: 6pt;
+      font-size: medium;
       width: 28%;
       height: 90%;
   }
@@ -156,6 +157,14 @@ h2 {
 
   h2 {
     font-size: smaller;
+  }
+
+  .btnAnimado {
+    font-size: revert;
+  }
+
+  .btnAnimado:hover {
+    font-size: revert;
   }
 }
 
